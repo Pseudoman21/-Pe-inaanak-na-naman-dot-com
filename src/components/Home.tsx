@@ -159,7 +159,7 @@ export const HomePage = () => {
         {isModalOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
             <div className="bg-white p-8 rounded-lg max-w-md w-full">
-              <h2 className="text-2xl text-indigo-500 font-semibold mb-4">{editingIndex !== null ? 'Mag-edit' : 'Magdagdag'} Inaanak</h2>
+              <h2 className="text-2xl text-indigo-500 font-semibold mb-4">{editingIndex !== null ? 'Mag-edit' : 'Magdagdag'} ng Inaanak</h2>
               {/* // eslint-disable-next-line @typescript-eslint/ban-ts-comment
               // @ts-ignore */}
               <form onSubmit={handleSubmit} className="space-y-4">

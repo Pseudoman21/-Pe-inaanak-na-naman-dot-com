@@ -318,9 +318,14 @@ export const HomePage = () => {
                 </div>
               </li>
             ))
-          ) : (
+          ) : searchTerm !== '' ? (
             <li className="bg-white p-4 rounded-lg shadow-md text-center text-gray-700">Walang nakitang inaanak. Di mo inaanak yan! Hahaha</li>
-          )}
+          ) :
+            (
+              <li className="bg-white p-4 rounded-lg shadow-md text-center text-gray-700">Ayos ahh! Wala ka pang inaanak!</li>
+
+            )
+          }
         </ul>
 
         {typeof inaanakToDelete === 'number' && (
